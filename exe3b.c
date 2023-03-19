@@ -38,6 +38,8 @@ int main() {
         pthread_join(threads[i], NULL);
     }
 
+    sleep(10);
     printf("Programa principal finalizado\n");
+
     return 0;
 }
